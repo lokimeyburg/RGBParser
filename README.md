@@ -1,8 +1,5 @@
 # RGBParser
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/RGBParser/badge.png)](http://cocoadocs.org/docsets/RGBParser)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/RGBParser/badge.png)](http://cocoadocs.org/docsets/RGBParser)
-
 Convert RGB-hex colors into UIColor objects for iOS (because UIColor is convoluted).
 
 ## Usage
