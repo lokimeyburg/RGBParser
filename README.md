@@ -18,10 +18,10 @@ self.myUIColor = [rgbParser colorWithHexString:@"f8f8f8"];
 
 ## Installation
 
-RGBParser is available through [CocoaPods](http://cocoapods.org), to install
+RGBParser is available as a [CocoaPod](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
-    pod "RGBParser"
+    pod "RGBParser", git: 'https://github.com/lokimeyburg/RGBParser.git'
 
 ## License
 
