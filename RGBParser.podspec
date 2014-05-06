@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RGBParser"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "Simple Hex to UIColor converter"
   s.description      = <<-DESC
                       Simple Hex to UIColor converter. Useful for getting the right color for buttons or backgrounds.
