@@ -3,11 +3,21 @@
 [![Version](http://cocoapod-badges.herokuapp.com/v/RGBParser/badge.png)](http://cocoadocs.org/docsets/RGBParser)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/RGBParser/badge.png)](http://cocoadocs.org/docsets/RGBParser)
 
+Convert RGB-hex colors into UIColor objects for iOS (because UIColor is convoluted).
+
 ## Usage
 
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
+```
+#import "RGBParser.h"
 
-## Requirements
+// ...
+
+// Create an RGBParser object
+RGBParser *rgbParser = [[RGBParser alloc] init];
+// This will return a UIColor object that matches the RGB-hex color of #f8f8f8
+self.myUIColor = [rgbParser colorWithHexString:@"f8f8f8"];
+```
+
 
 ## Installation
 
@@ -15,10 +25,6 @@ RGBParser is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
     pod "RGBParser"
-
-## Author
-
-lokimeyburg, loki@aristolabs.com
 
 ## License
 
